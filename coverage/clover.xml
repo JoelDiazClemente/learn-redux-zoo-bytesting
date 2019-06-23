@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1561308849562" clover="3.2.0">
+  <project timestamp="1561308849562" name="All files">
+    <metrics statements="82" coveredstatements="82" conditionals="47" coveredconditionals="47" methods="22" coveredmethods="22" elements="151" coveredelements="151" complexity="0" loc="82" ncloc="82" packages="10" files="17" classes="17"/>
+    <package name="ducks">
+      <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      <file name="index.js" path="C:\Users\Joel\Desktop\learn-redux-zoo-bytesting-master\src\ducks\index.js">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="7" count="4" type="stmt"/>
+      </file>
+    </package>
+    <package name="ducks.animals">
+      <metrics statements="24" coveredstatements="24" conditionals="17" coveredconditionals="17" methods="2" coveredmethods="2"/>
+      <file name="index.js" path="C:\Users\Joel\Desktop\learn-redux-zoo-bytesting-master\src\ducks\animals\index.js">
+        <metrics statements="24" coveredstatements="24" conditionals="17" coveredconditionals="17" methods="2" coveredmethods="2"/>
+        <line num="5" count="108" type="cond" truecount="3" falsecount="0"/>
+        <line num="7" count="59" type="cond" truecount="2" falsecount="0"/>
+        <line num="8" count="32" type="stmt"/>
+        <line num="10" count="27" type="cond" truecount="2" falsecount="0"/>
+        <line num="11" count="4" type="stmt"/>
+        <line num="14" count="23" type="stmt"/>
+        <line num="15" count="26" type="cond" truecount="2" falsecount="0"/>
+        <line num="16" count="4" type="cond" truecount="2" falsecount="0"/>
+        <line num="17" count="3" type="stmt"/>
+        <line num="18" count="3" type="stmt"/>
+        <line num="19" count="3" type="stmt"/>
+        <line num="21" count="1" type="stmt"/>
+        <line num="24" count="19" type="stmt"/>
+        <line num="25" count="22" type="stmt"/>
+        <line num="32" count="36" type="stmt"/>
+        <line num="35" count="35" type="cond" truecount="2" falsecount="0"/>
+        <line num="36" count="28" type="stmt"/>
+        <line num="38" count="35" type="stmt"/>
+        <line num="41" count="14" type="stmt"/>
+        <line num="42" count="14" type="stmt"/>
+        <line num="43" count="15" type="cond" truecount="4" falsecount="0"/>
+        <line num="44" count="13" type="stmt"/>
+        <line num="45" count="13" type="stmt"/>
+        <line num="48" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="ducks.animals.actions">
+      <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+      <file name="breakOut.js" path="C:\Users\Joel\Desktop\learn-redux-zoo-bytesting-master\src\ducks\animals\actions\breakOut.js">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="1" count="4" type="stmt"/>
+        <line num="3" count="16" type="stmt"/>
+      </file>
+      <file name="receiveAnimal.js" path="C:\Users\Joel\Desktop\learn-redux-zoo-bytesting-master\src\ducks\animals\actions\receiveAnimal.js">
+        <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="1" count="4" type="stmt"/>
+        <line num="3" count="4" type="stmt"/>
+        <line num="4" count="61" type="stmt"/>
+      </file>
+    </package>
+    <package name="ducks.animals.selectors">
+      <metrics statements="40" coveredstatements="40" conditionals="24" coveredconditionals="24" methods="12" coveredmethods="12"/>
+      <file name="countPresentAnimals.js" path="C:\Users\Joel\Desktop\learn-redux-zoo-bytesting-master\src\ducks\animals\selectors\countPresentAnimals.js">
+        <metrics statements="5" coveredstatements="5" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
+        <line num="3" count="6" type="stmt"/>
+        <line num="4" count="6" type="stmt"/>
+        <line num="5" count="10" type="cond" truecount="2" falsecount="0"/>
+        <line num="6" count="9" type="stmt"/>
+        <line num="9" count="6" type="stmt"/>
+      </file>
+      <file name="getAnimals.js" path="C:\Users\Joel\Desktop\learn-redux-zoo-bytesting-master\src\ducks\animals\selectors\getAnimals.js">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="2" count="37" type="stmt"/>
+      </file>
+      <file name="isPresent.js" path="C:\Users\Joel\Desktop\learn-redux-zoo-bytesting-master\src\ducks\animals\selectors\isPresent.js">
+        <metrics statements="5" coveredstatements="5" conditionals="4" coveredconditionals="4" methods="1" coveredmethods="1"/>
+        <line num="2" count="3" type="stmt"/>
+        <line num="3" count="3" type="stmt"/>
+        <line num="4" count="2" type="cond" truecount="4" falsecount="0"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="8" count="3" type="stmt"/>
+      </file>
+      <file name="makeCountAbsentAnimals.js" path="C:\Users\Joel\Desktop\learn-redux-zoo-bytesting-master\src\ducks\animals\selectors\makeCountAbsentAnimals.js">
+        <metrics statements="5" coveredstatements="5" conditionals="2" coveredconditionals="2" methods="2" coveredmethods="2"/>
+        <line num="6" count="7" type="stmt"/>
+        <line num="9" count="7" type="stmt"/>
+        <line num="10" count="8" type="cond" truecount="2" falsecount="0"/>
+        <line num="11" count="1" type="stmt"/>
+        <line num="14" count="6" type="stmt"/>
+      </file>
+      <file name="makeGetAnimalsName.js" path="C:\Users\Joel\Desktop\learn-redux-zoo-bytesting-master\src\ducks\animals\selectors\makeGetAnimalsName.js">
+        <metrics statements="6" coveredstatements="6" conditionals="2" coveredconditionals="2" methods="2" coveredmethods="2"/>
+        <line num="5" count="7" type="stmt"/>
+        <line num="8" count="7" type="cond" truecount="2" falsecount="0"/>
+        <line num="10" count="6" type="stmt"/>
+        <line num="11" count="6" type="stmt"/>
+        <line num="12" count="9" type="stmt"/>
+        <line num="14" count="6" type="stmt"/>
+      </file>
+      <file name="makeGetFilteredAnimalsName.js" path="C:\Users\Joel\Desktop\learn-redux-zoo-bytesting-master\src\ducks\animals\selectors\makeGetFilteredAnimalsName.js">
+        <metrics statements="12" coveredstatements="12" conditionals="10" coveredconditionals="10" methods="2" coveredmethods="2"/>
+        <line num="6" count="8" type="stmt"/>
+        <line num="10" count="8" type="cond" truecount="2" falsecount="0"/>
+        <line num="12" count="7" type="stmt"/>
+        <line num="13" count="7" type="stmt"/>
+        <line num="14" count="11" type="cond" truecount="2" falsecount="0"/>
+        <line num="15" count="2" type="cond" truecount="2" falsecount="0"/>
+        <line num="16" count="1" type="stmt"/>
+        <line num="19" count="9" type="cond" truecount="2" falsecount="0"/>
+        <line num="20" count="2" type="cond" truecount="2" falsecount="0"/>
+        <line num="21" count="1" type="stmt"/>
+        <line num="25" count="7" type="stmt"/>
+        <line num="28" count="7" type="stmt"/>
+      </file>
+      <file name="makeIsAbsent.js" path="C:\Users\Joel\Desktop\learn-redux-zoo-bytesting-master\src\ducks\animals\selectors\makeIsAbsent.js">
+        <metrics statements="6" coveredstatements="6" conditionals="4" coveredconditionals="4" methods="3" coveredmethods="3"/>
+        <line num="5" count="8" type="stmt"/>
+        <line num="9" count="9" type="stmt"/>
+        <line num="10" count="5" type="cond" truecount="4" falsecount="0"/>
+        <line num="11" count="4" type="stmt"/>
+        <line num="14" count="5" type="stmt"/>
+        <line num="18" count="11" type="stmt"/>
+      </file>
+    </package>
+    <package name="ducks.name">
+      <metrics statements="3" coveredstatements="3" conditionals="3" coveredconditionals="3" methods="1" coveredmethods="1"/>
+      <file name="index.js" path="C:\Users\Joel\Desktop\learn-redux-zoo-bytesting-master\src\ducks\name\index.js">
+        <metrics statements="3" coveredstatements="3" conditionals="3" coveredconditionals="3" methods="1" coveredmethods="1"/>
+        <line num="4" count="84" type="cond" truecount="2" falsecount="0"/>
+        <line num="6" count="6" type="stmt"/>
+        <line num="8" count="78" type="stmt"/>
+      </file>
+    </package>
+    <package name="ducks.name.actions">
+      <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <file name="setName.js" path="C:\Users\Joel\Desktop\learn-redux-zoo-bytesting-master\src\ducks\name\actions\setName.js">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="1" count="4" type="stmt"/>
+        <line num="3" count="8" type="stmt"/>
+      </file>
+    </package>
+    <package name="ducks.name.selectors">
+      <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <file name="getName.js" path="C:\Users\Joel\Desktop\learn-redux-zoo-bytesting-master\src\ducks\name\selectors\getName.js">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="2" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="ducks.presenceFilter">
+      <metrics statements="3" coveredstatements="3" conditionals="3" coveredconditionals="3" methods="1" coveredmethods="1"/>
+      <file name="index.js" path="C:\Users\Joel\Desktop\learn-redux-zoo-bytesting-master\src\ducks\presenceFilter\index.js">
+        <metrics statements="3" coveredstatements="3" conditionals="3" coveredconditionals="3" methods="1" coveredmethods="1"/>
+        <line num="4" count="85" type="cond" truecount="2" falsecount="0"/>
+        <line num="6" count="4" type="stmt"/>
+        <line num="8" count="81" type="stmt"/>
+      </file>
+    </package>
+    <package name="ducks.presenceFilter.actions">
+      <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <file name="setPresenceFilter.js" path="C:\Users\Joel\Desktop\learn-redux-zoo-bytesting-master\src\ducks\presenceFilter\actions\setPresenceFilter.js">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="1" count="4" type="stmt"/>
+        <line num="3" count="6" type="stmt"/>
+      </file>
+    </package>
+    <package name="ducks.presenceFilter.selectors">
+      <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <file name="getPresenceFilter.js" path="C:\Users\Joel\Desktop\learn-redux-zoo-bytesting-master\src\ducks\presenceFilter\selectors\getPresenceFilter.js">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="1" count="10" type="stmt"/>
+      </file>
+    </package>
+  </project>
+</coverage>

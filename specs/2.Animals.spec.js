@@ -2,7 +2,10 @@ import {
   RECEIVE_ANIMAL,
   receiveAnimal
 } from "../src/ducks/animals/actions/receiveAnimal";
-import { BREAK_OUT, breakOut } from "../src/ducks/animals/actions/breakOut";
+import { 
+  BREAK_OUT, 
+  breakOut 
+} from "../src/ducks/animals/actions/breakOut";
 import animals from "../src/ducks/animals";
 import getAnimals from "../src/ducks/animals/selectors/getAnimals";
 import isPresent from "../src/ducks/animals/selectors/isPresent";

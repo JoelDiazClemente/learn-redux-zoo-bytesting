@@ -32,7 +32,7 @@ describe("introduction", () => {
     });
   });
 
-  describe("name reducer", () => {
+  describe("name reducer", () => { 
     test("export at src/ducks/name/index.js a function reducer", () => {
       expect(name).toEqual(expect.any(Function));
     });

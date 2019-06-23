@@ -41,6 +41,7 @@ describe("Reselect is used to create new selectors", () => {
       const count1 = countPresentAnimals(state1);
       const count2 = countPresentAnimals(state2);
       const count3 = countPresentAnimals(state3);
+      
       expect(count1).toBe(1);
       expect(count2).toBe(2);
       expect(count3).toBe(3);
